@@ -36,14 +36,26 @@
 
 let users:object[];
 users = []
-let user1:{userName: string,age?:number};
+
+type User= {userName: string,age?:number};
+
+let user1:User
  user1 = {userName:'anis',age:50 }
 users.push(user1)
-console.log(users)
-//  
 
-users = []
+
 let user2:{userName: string,age?:number};
  user2 = {userName:'islam',age:50 }
 users.push(user2)
 console.log(users)
+
+
+type RequestType = "GET" | "POST";
+let getRequest: RequestType;
+getRequest = "GET";
+getRequest = "POST"
+
+function requestHandler (requestType: RequestType){
+    console.log(requestType);
+}
+requestHandler("GET")
