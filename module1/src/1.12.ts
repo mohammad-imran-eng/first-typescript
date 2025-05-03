@@ -34,28 +34,47 @@
 // userName = 123,
 // userName = [10,20]
 
-let users:object[];
-users = []
+// let users:object[];
+// users = []
 
-type User= {userName: string,age?:number};
+// type User= {userName: string,age?:number};
 
-let user1:User
- user1 = {userName:'anis',age:50 }
-users.push(user1)
-
-
-let user2:{userName: string,age?:number};
- user2 = {userName:'islam',age:50 }
-users.push(user2)
-console.log(users)
+// let user1:User
+//  user1 = {userName:'anis',age:50 }
+// users.push(user1)
 
 
-type RequestType = "GET" | "POST";
-let getRequest: RequestType;
-getRequest = "GET";
-getRequest = "POST"
+// let user2:{userName: string,age?:number};
+//  user2 = {userName:'islam',age:50 }
+// users.push(user2)
+// console.log(users)
 
-function requestHandler (requestType: RequestType){
-    console.log(requestType);
-}
-requestHandler("GET")
+
+// type RequestType = "GET" | "POST";
+// let getRequest: RequestType;
+// getRequest = "GET";
+// getRequest = "POST"
+
+// function requestHandler (requestType: RequestType){
+//     console.log(requestType);
+// }
+// requestHandler("GET")
+
+// class User {
+//    userName: string;
+//    age: number
+   
+//    constructor(userName:string,age:number){
+//         this.userName = userName;
+//         this.age = age
+//    }
+//    display(): void{
+//     console.log(this.userName);
+//     console.log(this.age);
+//    }
+// }
+
+// const user1 = new User("anisul",50);
+// user1.display()
+// const user2 = new User("Mahtab",30);
+// user2.display()
